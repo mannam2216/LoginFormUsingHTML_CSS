@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- ===Remixicon=== -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+     <!-- ====CSS==== -->
+     <link rel="stylesheet" href="style.css">
+     <!-- ---Title--- -->
+     <title>Login Form using HTML&CSS</title>
+</head>
+
+<body>
+     <div class="login">
+          <img src="https://wallpapercave.com/wp/wp5278684.jpg" alt="login_image" class="login_img">
+
+          <div class="login_form">
+               <h1 id="login_title">Login</h1>
+
+               <div class="login_inputs">
+                    <div class="login_box">
+                         <input type="email" placeholder="Email Id" required class="login_input">
+                         <i class="ri-mail-fill"></i>
+                    </div>
+                    <div class="login_box">
+                         <input type="password" placeholder="Password" required class="login_input">
+                         <i class="ri-lock-fill"></i>
+                    </div>
+               </div>
+               <div class="login_check">
+                    <div class="login_check-box">
+                         <input type="checkbox" class="login_check-box" id="login-check">
+                         <label for="login-check" class="login_check-label">Remember Me</label>
+                    </div>
+
+                    <a href="#" class="login_forgot">Forgot password?</a>
+               </div>
+
+               <button type="submit" class="login_button">Login</button>
+               <div class="login_register">
+                    Don't have any account? <a href="#">Register</a>
+               </div>
+          </div>
+     </div>
+
+     <!-- ====Main-Js==== -->
+     <script src="main.js"></script>
+</body>
+
+</html>
